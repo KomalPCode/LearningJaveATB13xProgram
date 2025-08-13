@@ -18,7 +18,7 @@ public class Person {
 
     String sleep() {
         System.out.println("sleeping");
-        return null:
+        return null;
     }
 
     String food(int a) {
