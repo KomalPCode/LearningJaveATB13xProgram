@@ -22,4 +22,10 @@ public class Lab205_Static_IIB {
 class P{
     static int a = 10;
     int b = 15;
+
+    static {
+        //This is static block.
+        //This is called whenever class is loaded.
+        System.out.println("This is called because class is loaded");
+    }
 }
